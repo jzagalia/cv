@@ -1,0 +1,142 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0px;
+    background-color: #efefef;
+}
+
+header {
+    background-color: #364552;
+    color: white;
+    padding: 1rem 1rem;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%;
+    border-radius: 100px;
+    box-shadow: 3px 3px 5px cornflowerblue;
+    cursor: pointer;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    text-shadow: 3px 3px 5px cornflowerblue;
+}
+
+header {
+    border: 5px solid #efefef;
+    border-radius: 5px;
+}
+
+h2#exp {
+    background-color: rgb(226, 224, 224);
+    color: rgb(145, 90, 3);
+    font-size: 2rem;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+}
+
+h2#laboral {
+    background-color: rgb(226, 224, 224);
+    color: rgb(30, 0, 63);
+    font-size:2rem;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    text-shadow: 2px 2px 3px rgb(53, 53, 53);
+}
+
+p.parrafo {
+    text-align: justify;
+    column-count: 3;
+    margin-right: 20px;
+    margin-left: 20px;
+    column-gap: 20px;
+    column-rule: 3px solid #858585;
+}
+
+div#uno {
+    margin-top: 20px;
+    height: 600px;
+    width: 400px;
+    background-color: rgb(197, 197, 197);
+}
+
+div#dos {
+    float: right;
+    height: 600px;
+    width: 1090px;
+    background-color: rgb(197, 197, 197);
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #364552;
+    color: white;
+    padding: 3rem 2rem;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}
+
+button {
+    transition: box-shadow 0.3s ease;
+    background-color: #364552;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px 0px 10px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0rem 0.15rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+div.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: auto;
+    margin-top: 16px;
+    background-color: rgb(197, 197, 197);
+}
+
+p.mono {
+    background-color: white;
+    border: 2px solid black;
+    padding: 3px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p.mono:hover {
+    transition: color 0.3s ease;
+    color: cornflowerblue;
+    font-weight: bold;
+}
