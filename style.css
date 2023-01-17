@@ -66,14 +66,14 @@ div#uno {
     margin-top: 20px;
     height: 600px;
     width: 400px;
-    background-color: rgb(197, 197, 197);
+    background-color: rgb(212, 212, 212);
 }
 
 div#dos {
     float: right;
     height: 600px;
     width: 1090px;
-    background-color: rgb(197, 197, 197);
+    background-color: rgb(212, 212, 212);
 }
 
 footer {
@@ -123,7 +123,7 @@ div.flex-container {
     flex-direction: row;
     padding: auto;
     margin-top: 16px;
-    background-color: rgb(197, 197, 197);
+    background-color: rgb(212, 212, 212);
 }
 
 p.mono {
