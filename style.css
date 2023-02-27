@@ -55,21 +55,21 @@ h2#laboral {
 
 p.parrafo {
     text-align: justify;
-    column-count: 3;
+    column-count: 2;
     margin-right: 20px;
     margin-left: 20px;
     column-gap: 20px;
     column-rule: 3px solid #858585;
 }
 
-div#uno {
+main#uno {
     margin-top: 20px;
     height: 600px;
     width: 400px;
     background-color: rgb(212, 212, 212);
 }
 
-div#dos {
+article#dos {
     float: right;
     height: 600px;
     width: 1090px;
@@ -116,7 +116,7 @@ button:hover {
     box-shadow: 0rem 0.15rem 0.4rem rgba(0, 0, 0, 0.3);
 }
 
-div.flex-container {
+section.flex-container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
